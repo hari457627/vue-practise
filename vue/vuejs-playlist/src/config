@@ -1,0 +1,6 @@
+CKEDITOR.replace( 'editor', {
+    extraPlugins: 'easyimage',
+    removePlugins: 'image',
+    cloudServices_tokenUrl: 'https://example.com/cs-token-endpoint',
+    cloudServices_uploadUrl: 'https://your-organization-id.cke-cs.com/easyimage/upload/'
+} );

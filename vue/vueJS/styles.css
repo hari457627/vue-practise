@@ -1,0 +1,19 @@
+#canvas{
+    border: 1px solid black;
+    height: 500px;
+    width: 500px;
+}
+
+.spanClass {
+    border:1px solid black;
+    padding: 3px;
+    color: black;
+    background-color: red;
+}
+
+.sampleClass > span {
+    border:1px solid black;
+    padding: 3px;
+    color: black;
+    background-color: green;
+}
